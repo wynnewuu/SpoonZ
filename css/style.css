@@ -266,23 +266,25 @@ nav .navbar a:hover{
 
 
 header.menu{
-    height:600px;
+    height:500px;
 	background-image:url(../images/footer-bg.jpg);
-    width: auto;
-    height: 500px;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    overflow:hidden;
-	background-size: cover;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 header.contact{
 	background-image:url(../images/waiters.jpg);
     font-size: 1.5em;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 header.contact .container{
@@ -295,10 +297,12 @@ header.contact .container{
 header.about{
 	background-image:url(../images/20210818_015521.jpg);
     font-size: 1.5em;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 header.about .container{
