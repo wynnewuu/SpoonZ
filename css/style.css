@@ -277,14 +277,12 @@ header.menu{
 }
 
 header.contact{
-    height:600px;
 	background-image:url(../images/waiters.jpg);
-    width: auto;
-    height: 500px;
-    background-position: 0% 0%;
+    font-size: 1.5em;
     background-repeat: no-repeat;
-    overflow:hidden;
-	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header.contact .container{
@@ -295,14 +293,12 @@ header.contact .container{
 }
 
 header.about{
-    height:600px;
 	background-image:url(../images/20210818_015521.jpg);
-    width: auto;
-    height: 500px;
-    background-position: 0% 0%;
+    font-size: 1.5em;
     background-repeat: no-repeat;
-    overflow:hidden;
-	background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header.about .container{
@@ -908,19 +904,6 @@ footer.copyright a{
 }
 .nav-background .contact h6, .nav-background .contact h6{
     font-size: 0.75rem;
-}
-.nav-background .cart{
-    margin-bottom:2rem;
-}
-.nav-background .cart a{
-    color:var(--secondary);
-    text-decoration: none;
-    font-family: "Raleway-bold";
-}
-.nav-background .cart img{
-    margin-right:0.75rem;
-    width:20px;
-    height:20px;
 }
 
 @media (max-width:992px){
