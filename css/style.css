@@ -1,3 +1,4 @@
+
 /* fonts  */
 @font-face {
     font-family:"Raleway-regular";
@@ -216,10 +217,7 @@ nav .navbar a{
     -ms-transition:all .3s ease;
     -o-transition:all .3s ease;
 }
-nav .navbar a.active{
-    background:var(--primary);
-    color:var(--pure);
-}
+
 nav .navbar a:hover{
     background:var(--primary);
     color:var(--pure); 
@@ -318,11 +316,12 @@ header.about .container{
 header.hero{
     height:600px;
 	  background-image:url(../images/back.jpg);
-
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    overflow:hidden;
-	background-size: cover;
+      background-repeat:no-repeat;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      background-position:center;
 }
 header.hero .container{
     position: relative;
